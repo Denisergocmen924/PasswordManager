@@ -104,7 +104,7 @@ while True:
     elif menu_choice == "4":
         manager.delete_password()
 
-    elif menu_choice == "5":
+    elif menu_choice == "5" or menu_choice.lower() == "q":
         break
 
     else:
